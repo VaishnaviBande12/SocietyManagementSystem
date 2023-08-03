@@ -1,0 +1,57 @@
+create database society;
+use Society;
+
+create table Flat(
+    -> Flat_no int not null primary key,
+    -> Flat_type set("1 BHK","2 BHK","3 BHK") not null
+    -> );
+
+create table Member(
+    -> mid int not null auto_increment primary key,
+    -> Full_name varchar(500) not null,
+    -> Flat_no int not null,
+    -> Email varchar(100) not null,
+    -> city varchar(50) not null,
+    -> Address varchar(500) not null,
+    -> Room set("1 BHK","2 BHK","3 BHK") not null,
+    -> Gender set("Male","Female","Others") not null
+    -> );
+
+create table Charges(
+    -> cid int not null auto_increment primary key,
+    -> Flat_no int not null,
+    -> Maintanance int not null,
+    -> Parking_Charges int not null,
+    -> Event_Funds int not null,
+    -> Foreign key(Flat_no) references Flat(Flat_no)
+    -> );
+
+create table Notice(
+    -> N_id int not null primary key,
+    -> Notice varchar(5000) not null
+    -> );
+
+create table Sell_House(
+    -> SH_id int auto_increment not null primary key,
+    -> Flat_no int not null,
+    -> Sold_price int not null,
+    -> Foreign key(Flat_no) references Flat(Flat_no)
+    -> );
+
+create table Rent_House(
+    -> RH_id int auto_increment not null primary key,
+    -> Flat_no int not null,
+    -> Rent_price int not null,
+    -> Rent_agreement set("Yes","No") not null,
+    -> Foreign key(Flat_no) references Flat(Flat_no)
+    -> );
+
+create table Bill(
+    -> B_id int auto_increment not null primary key,
+    -> Flat_no int not null,
+    -> Maintanance int not null,
+    -> Parking_Charges int not null,
+    -> Event_Funds int not null,
+    -> Foreign key(Flat_no) references Flat(Flat_no)
+    -> );
+

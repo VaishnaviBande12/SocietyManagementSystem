@@ -1,0 +1,145 @@
+<web-app>
+	<servlet>
+  		<servlet-name>Register</servlet-name> 
+  		<servlet-class>Register</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>Register</servlet-name> 
+  		<url-pattern>/Register</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>Login</servlet-name> 
+  		<servlet-class>Login</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>Profile</servlet-name> 
+  		<url-pattern>/Profile</url-pattern> 
+  	</servlet-mapping>
+
+
+	  <servlet>
+  		<servlet-name>Profile</servlet-name> 
+  		<servlet-class>Profile</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>Login</servlet-name> 
+  		<url-pattern>/Login</url-pattern> 
+  	</servlet-mapping>
+	  
+	<servlet>
+  		<servlet-name>AddCharges</servlet-name> 
+  		<servlet-class>AddCharges</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddCharges</servlet-name> 
+  		<url-pattern>/AddCharges</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>Maintanance</servlet-name> 
+  		<servlet-class>Maintanance</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>Maintanance</servlet-name> 
+  		<url-pattern>/Maintanance</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>AddFlat</servlet-name> 
+  		<servlet-class>AddFlat</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddFlat</servlet-name> 
+  		<url-pattern>/AddFlat</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>Notice</servlet-name> 
+  		<servlet-class>Notice</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>Notice</servlet-name> 
+  		<url-pattern>/Notice</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>AddMember</servlet-name> 
+  		<servlet-class>AddMember</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddMember</servlet-name> 
+  		<url-pattern>/AddMember</url-pattern> 
+  	</servlet-mapping>
+
+	   <servlet>
+  		<servlet-name>AddComplaint</servlet-name> 
+  		<servlet-class>AddComplaint</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddComplaint</servlet-name> 
+  		<url-pattern>/AddComplaint</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>AddNotices</servlet-name> 
+  		<servlet-class>AddNotices</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddNotices</servlet-name> 
+  		<url-pattern>/AddNotices</url-pattern> 
+  	</servlet-mapping>
+
+	   <servlet>
+  		<servlet-name>RentHouse</servlet-name> 
+  		<servlet-class>RentHouse</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>RentHouse</servlet-name> 
+  		<url-pattern>/RentHouse</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>SellHouse</servlet-name> 
+  		<servlet-class>SellHouse</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>SellHouse</servlet-name> 
+  		<url-pattern>/SellHouse</url-pattern> 
+  	</servlet-mapping>
+
+	   <servlet>
+  		<servlet-name>BillGenerate</servlet-name> 
+  		<servlet-class>BillGenerate</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>BillGenerate</servlet-name> 
+  		<url-pattern>/BillGenerate</url-pattern> 
+  	</servlet-mapping>
+
+	  <servlet>
+  		<servlet-name>AddBill</servlet-name> 
+  		<servlet-class>AddBill</servlet-class> 
+  	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>AddBill</servlet-name> 
+  		<url-pattern>/AddBill</url-pattern> 
+  	</servlet-mapping>
+
+	 
+	  
+	</web-app>
